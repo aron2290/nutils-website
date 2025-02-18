@@ -1,0 +1,31 @@
+name: "Thermoelasticity Simulation"
+authors:
+  - "Aron Jacobse"
+  - "Juho Kauppi"
+description: |
+  This simulation solves a thermoelasticity problem using Nutils.
+  It computes displacement and temperature distributions in a 3D solid under 
+  thermal and mechanical loading.
+
+  The results include:
+  - Displacement Magnitude Plot (showing deformation)
+  - Temperature Distribution Plot (showing heat conduction effects)
+  - An export to .vtk format, for further analysis in e.g. Paraview
+
+  The simulation is based on finite element methods (FEM) and leverages 
+  the Nutils library for efficient numerical solutions.
+
+repository: "https://github.com/aron2290/nutils"
+commit: "588b1aefa40d190c33da6ba6b3e95a5c80aca992"  # Replace with actual commit hash
+script: "nutils_example_thermoelasticity.py"
+images:
+  - "displacement_magnitude.png"
+  - "temperature_distribution.png"
+  - "possible_result.png"
+tags:
+  - "thermoelasticity"
+  - "finite elements"
+  - "heat conduction"
+  - "mechanical deformation"
+  - "nutils"
+
